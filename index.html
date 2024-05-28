@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>etch music generate</title>
+</head>
+
+<body>
+    <form id="musicForm">
+        歌曲名称：<input type="text" name="title"><br>
+        歌手名称：<input type="text" name="author"><br>
+        歌曲链接：<input type="text" name="link"><br>
+        <input type="submit" value="提交">
+    </form>
+
+    <div id="result"></div>
+    <button id="copyButton" style="display: none;">复制到剪贴板</button>
+    <div id="copyMessage" style="display: none; color: green; margin-top: 10px;">已复制到剪贴板</div>
+
+    <script src="generate.js"></script>
+</body>
+</html>
